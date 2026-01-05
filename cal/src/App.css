@@ -1,0 +1,77 @@
+/* ===== Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Main Frame ===== */
+.main-frame {
+  width: 300px;
+  border: 8px solid rgb(248, 134, 12);
+  border-radius: 25px;
+  background: #09ce89;
+  padding: 12px;
+  margin: 40px auto;
+}
+
+/* ===== Display ===== */
+.display {
+  height: 60px;
+  background-color: aliceblue;
+  border: 4px solid rgb(247, 135, 15);
+  border-radius: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 10px 15px;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* ===== Buttons Container ===== */
+.Buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* ===== Buttons ===== */
+.Buttons button {
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid #222;
+  background: #c53205;
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.2s ease;
+}
+
+/* ===== Button Hover / Press ===== */
+.Buttons button:hover {
+  background: #b12c04;
+}
+
+.Buttons button:active {
+  transform: scale(0.95);
+}
+
+/* ===== Special Buttons ===== */
+.equal {
+  background: #f7b733;
+  color: black;
+  font-weight: 800;
+}
+
+.history{
+  padding: 20px;
+  font-size: 18px;
+}
+
+/*mobile-response*/
